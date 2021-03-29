@@ -20,7 +20,7 @@ public class Browser_Launch {
     System. setProperty("webdriver.chrome.driver", "C:\\Ashok\\Automation\\Browser_Driver\\Chrome_Driver\\chromedriver_89.exe");
      driver=new ChromeDriver();
      Thread.sleep(2000);
-     String URL= "http://www.google.com";
+     String URL= "http://www.google.com";  
     driver.get(URL);   
     
 //     driver.findElement(By.id("email")).sendKeys("admin@admin.com");
