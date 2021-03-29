@@ -12,10 +12,9 @@ public class Browser_Launch {
 	public  WebDriver driver;
 	
     @Test
-    public void Browser_Config() throws Exception{
-    	
-    	try {
-       System.out.print("Browser Launch");
+    public void Browser_Config() throws Exception{	
+    try {
+    System.out.print("Browser Launch");
        
     System. setProperty("webdriver.chrome.driver", "C:\\Ashok\\Automation\\Browser_Driver\\Chrome_Driver\\chromedriver_89.exe");
      driver=new ChromeDriver();
